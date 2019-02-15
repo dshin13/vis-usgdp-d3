@@ -1,0 +1,42 @@
+.title {
+    margin-top: 10vh;
+    font-family: Gravitas One;
+    font-size: 40px;
+}
+.bar:hover{
+    fill: yellow;
+}
+
+.axes {
+    font-family: Gravitas One;
+    font-size: 10.5px;
+}
+
+.axes-label {
+    font-family: Gravitas One;
+    font-size: 20px;
+}
+
+#tooltip{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Gravitas One;
+    background: lime;
+    padding: 15px;
+    border: 10px solid green;
+    border-radius: 3px;
+    opacity: 0;
+    pointer-events: none;
+}
+  
+body {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
