@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 40px;
+    background: blue;
+}
+
+.figure-div {
+    display: flex;
+}
+
+.chart {
+    background: #6699ff;
+    opacity: 0.8;
+    border-radius: 10px; 
+}
+
+
+.bar:hover {
+    fill: white;
+}
+
+.selection {
+    background: yellow;
+}
+
+.selection-node {
+    width: 50%;
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.selection-node:hover {
+    background: beige;
+}
+
+.active{
+    opacity:0.9;
+}
